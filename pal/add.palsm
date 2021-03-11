@@ -1,0 +1,12 @@
+func:
+    GTE R1 10
+    JMPF finish
+    ADD R1 1
+    PUSH R1
+    PEEK
+    JMP func
+finish:
+    ADD R1 1
+    PUSH R1
+    PEEK
+    HALT
