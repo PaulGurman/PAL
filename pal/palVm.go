@@ -319,7 +319,7 @@ func ReadBinaryFile(fileName string) []uint32 {
 // Main function
 func main() {
 	if len(os.Args) != 2 {
-		fmt.Println("Usage: ./pal <file.pal>|<file.bin>")
+		fmt.Println("Usage: ./pal <file.palsm>|<file.bin>")
 		os.Exit(1)
 	}
 
