@@ -1,0 +1,15 @@
+Paul Assembly Language (PAL)
+
+This repo contains two folders: 
+      ./pal
+      ./palsm
+
+The source code of ./pal is for the PAL Virtual Machine (known as the PALVM) and ./palsm is for the PAL assembler. Appropriate README's will be included for each folder.
+
+This project is written solely in Golang.
+
+General usage for both executables:
+  ./pal <file.pal>|<file.bin> (will temporarily create a .bin file if provided a .pal file as a result of lexing and assembling the source code)
+  ./palsm <file.pal>
+
+THIS PROJECT IS FOR PERSONAL TEACHING ABOUT GOLANG, GENERAL EXPERIMENTATION, AND LEISURE. ANY RECOMMENDATIONS ARE APPRECIATED.
