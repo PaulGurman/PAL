@@ -4,7 +4,7 @@ This repo contains two folders:
       ./pal
       ./palsm
 
-The source code of ./pal is for the PAL Virtual Machine (known as the PALVM) and ./palsm is for the PAL assembler. Appropriate README's will be included for each folder.
+The source code of ./pal is for the PAL Virtual Machine (known as the PALVM) and ./palsm is for the PAL assembler. Appropriate README's will be included for each folder soon.
 
 This project is written solely in Golang.
 
